@@ -15,8 +15,7 @@ This is useful because when you kill off a DAG Run or Task through the Airflow W
        a. Here's a fast way:
 
                 $ wget https://raw.githubusercontent.com/teamclairvoyant/airflow-maintenance-dags/master/kill-halted-tasks/airflow-kill-halted-tasks.py
-        
+
 4. Update the global variables in the DAG with the desired values 
 
 5. Enable the DAG in the Airflow Webserver
-
